@@ -27,16 +27,13 @@
     </head>
     <body>
         <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+            <h1>SpiegelPhoneGap</h1>
+            <p>Hello World</p>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script type="text/javascript">
-            app.initialize();
+            $('<iframe src="http://www.spiegel.de" height="100%" width="100%" frameborder="0"></iframe>').appendTo('body');
         </script>
     </body>
 </html>
