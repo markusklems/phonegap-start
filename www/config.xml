@@ -50,12 +50,6 @@
     <icon src="journwe_logo_mobile.png"   gap:platform="android"    gap:density="hdpi" />
     <icon src="journwe_logo_mobile.png"  gap:platform="android"    gap:density="xhdpi" />
 
-    <!-- Define app splash screen for each platform. -->
-    <gap:splash src="splashscreen.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="splashscreen.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="splashscreen.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="splashscreen.png" gap:platform="android" gap:density="xhdpi" />
-
 	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 	
 	
